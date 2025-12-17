@@ -10,8 +10,8 @@ void Mqtt::_subscribe_to_all() {
     if (_subscription_list) {
         for (int i = 0; i < _sub_list_length; i++) {
             if (_echo && _initial_subscription) {
-                // Serial.print("\t.. subscribing to: ");
-                // Serial.println(_subscription_list[i]);
+                Serial.print("\t.. subscribing to: ");
+                Serial.println(_subscription_list[i]);
             }
             _mqtt_client.subscribe(_subscription_list[i]);
         }
