@@ -1,4 +1,4 @@
-# MQTT: ESP32 Subscribe <a href="https://www.ohioiot.com"><img src="https://www.ohioiot.com/images/logo.jpg" width="40" ></a>
+# MQTT: ESP32 Subscribe <a href="https://www.ohioiot.com"><img src="https://www.ohioiot.com/logo_150.jpg" width="40" ></a>
 
 ## Overview
 This code is set up to get you connecting and then subscribing to the MQTT broker of your choice.  The logic is explained in the YouTube video [MQTT - ESP32 Subscribe Using PubSubClient.h](https://youtu.be/zIIw5Pvrufo).
